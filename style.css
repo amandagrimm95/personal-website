@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: #6a5b4a;
+    border-bottom: 10px solid #58625c;
+    width: 100%;
+    padding: 30px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav li a {
+    color: #cabdb1;
+}
+
+header {
+    background-color: white;
+}
+
+article {
+    background-color: black;
+}
