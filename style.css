@@ -14,8 +14,9 @@ nav {
     width: 100%;
     padding: 30px 0px;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Barlow Semi Condensed', sans-serif;
+    text-transform: uppercase;
     position: sticky;
     top: 0px;
     left: 0px;
@@ -29,14 +30,17 @@ nav li {
 
 nav li a {
     color: #cabdb1;
+    text-decoration: none;
 }
 
 nav li a:visited {
     color: #cabdb1;
+    text-decoration: none;
 }
 
 nav li a:hover {
     color: black;
+    text-decoration: none;
 }
 
 /*Header Styling*/
@@ -54,6 +58,7 @@ header {
 header h1 {
     font-size: 150px;
     font-family: 'Dancing Script', cursive;
+    font-weight: normal;
     padding: 50px;
     padding-bottom: 0px;
 }
@@ -76,6 +81,13 @@ header img {
     position: relative;
     right: 50px;
     top: 50px;
+}
+
+/*Anchor Offset*/
+.anchor {
+    visibility: hidden;
+    position: relative;
+    bottom: 130px;
 }
 
 /*Article Styling*/
