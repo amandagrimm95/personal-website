@@ -31,16 +31,15 @@ nav li {
 nav li a {
     color: #cabdb1;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav li a:visited {
     color: #cabdb1;
-    text-decoration: none;
 }
 
 nav li a:hover {
     color: black;
-    text-decoration: none;
 }
 
 /*Header Styling*/
@@ -71,9 +70,10 @@ header h2 {
 header h3 {
     font-size: 20px;
     padding: 0px 50px;
+    display: inline-block;
 }
 
-header img {
+#profile_picture {
     width: 20%;
     border: 3px solid #cabdb1;
     border-radius: 50%;
@@ -81,6 +81,11 @@ header img {
     position: relative;
     right: 50px;
     top: 50px;
+}
+
+.icon {
+    width: 20px;
+    color: #cabdb1;
 }
 
 /*Anchor Offset*/
@@ -120,6 +125,18 @@ article h3 {
 article h4 {
     font-size: 25px;
     padding: 20px 80px;
+}
+
+article h4 a {
+    color:#cabdb1;
+}
+
+article h4 a:visited {
+    color: #cabdb1;
+}
+
+article h4 a:hover {
+    color:black;
 }
 
 article li {
