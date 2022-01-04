@@ -58,18 +58,18 @@ header h1 {
     font-size: 150px;
     font-family: 'Dancing Script', cursive;
     font-weight: normal;
-    padding: 50px;
-    padding-bottom: 0px;
+    padding: 50px 50px 0px 2.5%;
+    max-width: 70%;
 }
 
 header h2 {
     font-size: 30px;
-    padding: 0px 50px;
+    padding: 0px 2.5%;
 }
 
 header h3 {
     font-size: 20px;
-    padding: 0px 50px;
+    padding: 0px 2.5%;
     display: inline-block;
 }
 
@@ -108,23 +108,23 @@ article {
 
 article p {
     font-size: 20px;
-    padding: 20px 100px;
+    padding: 20px 10%;
 }
 
 article h2 {
     font-size: 35px;
-    padding: 20px 40px;
+    padding: 20px 2.5%;
     text-decoration: underline;
 }
 
 article h3 {
     font-size: 30px;
-    padding: 20px 60px;
+    padding: 20px 5%;
 }
 
 article h4 {
     font-size: 25px;
-    padding: 20px 80px;
+    padding: 20px 7.5%;
 }
 
 article h4 a {
@@ -141,5 +141,5 @@ article h4 a:hover {
 
 article li {
     font-size: 20px;
-    margin: 0px 140px;
+    margin: 0px 15%;
 }
