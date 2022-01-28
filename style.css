@@ -8,6 +8,8 @@ body {
     background-size: 1000px;
 }
 
+
+
 /*Nav Bar Styling*/
 nav {
     background-color: #6a5b4a;
@@ -55,7 +57,7 @@ nav .icon {
     display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 840px) {
     nav {
         display: flex;
         justify-content: end;
