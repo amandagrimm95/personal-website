@@ -5,17 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amanda Grimm</title>
-    <link href="./style.css" rel="stylesheet">
+    <!--Imported Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap" rel="stylesheet">
+    <!--Style Sheets-->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Scripts-->
+    <script src="navBar.js"></script>
 </head>
 <body>
     <nav>
-        <ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <ul id="navLinks">
             <li><a href="#home">Home</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -72,7 +80,13 @@
                 <h3>Personal Projects</h3>
                     <p>More coming soon!</p>
                 <h3>Professional Projects</h3>
-                    <p>More coming soon!</p>
+                    <h4>Fitness Lexx - <a href="https://fitnesslexx.com" target="_blank">Fitness & Nutritional E-Commerce Site</a></h4>
+                        <p>
+                            This website was designed and constructed for a client as a 
+                            informational site as well as store-front for her fitness and nutrition buisiness. 
+                            It was built off the kajabi frame-work to seamlessly transition between
+                            the site and the online classes/products. 
+                        </p>
                 <h3>Code Academy Projects</h3>
                     <h4>Mixed Messages - <a href="https://amandagrimm95.github.io/mixedMessages/" target="_blank">Fortune Cookie Website</a></h4>
                         <p>
@@ -85,6 +99,12 @@
                             This project started to combine HTML with the styling of CSS. This
                             touched on basic styling of text and images while keeping the default
                             flow of the website.
+                        </p>
+                    <h4>Tea Cozy - <a href="https://amandagrimm95.github.io/tea-cozy/">Responsive Website</a></h4>
+                        <p>
+                            In this project, I worked off of a "client provided" style sheet <a href="">(see here)</a> to 
+                            build a website meeting their specs. I then tweeked the styling using mobile query 
+                            to make it adaptable based on screen size using the <strong>Flexbox</strong> tool.  Try it out on anything from your computer to your phone to see!
                         </p>
         </section>
         <section class="anchor" id="education"></section>

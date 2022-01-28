@@ -5,9 +5,6 @@
 
 body {
     background-image: url(./images/Background\ Pattern.jpg);
-    background-repeat: repeat-y;
-    background-position: center;
-    background-size: cover;
 }
 
 /*Nav Bar Styling*/
@@ -15,20 +12,26 @@ nav {
     background-color: #6a5b4a;
     border-bottom: 5px solid #cabdb1;
     width: 100%;
+    min-height: 40px;
     padding: 30px 0px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Barlow Semi Condensed', sans-serif;
     text-transform: uppercase;
     position: sticky;
     top: 0px;
     left: 0px;
     z-index: 10;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 nav li {
     display: inline-block;
-    padding: 10px 50px;
+    padding: 10px 30px;
+    flex-shrink: 1;
 }
 
 nav li a {
@@ -45,12 +48,37 @@ nav li a:hover {
     color: black;
 }
 
+nav .icon {
+    color:#cabdb1;
+    width: 50px;
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: end;
+    }
+    nav .icon {
+        display: block;
+        margin: 0 30px;
+    }
+    nav #navLinks {
+        display: none;
+    }
+    nav #navLinks.show{
+        display:block;
+    }
+    nav a {
+        width: 100%;
+    }
+}
+
 /*Header Styling*/
 header {
     background-color: #163f56;
     color: #cabdb1;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    /*min-height: 350px;*/
     width: 75%;
     margin: 0 auto;
     border-left: 2px solid #6a5b4a;
@@ -89,6 +117,30 @@ header h3 {
 .icon {
     width: 20px;
     color: #cabdb1;
+}
+
+@media only screen and (max-width: 768px) {
+    #profile_picture {
+        float: none;
+        position: relative;
+        margin-top: 10px;
+        width: 50%;
+        margin: 0 25%;
+        text-align: center;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    header h1 {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    header h2 {
+        font-size: 25px;
+    }
 }
 
 /*Anchor Offset*/
@@ -145,4 +197,10 @@ article h4 a:hover {
 article li {
     font-size: 20px;
     margin: 0px 15%;
+}
+
+article a {
+    color: #6a5b4a;
+    text-decoration: none;
+    font-weight: bold;
 }
